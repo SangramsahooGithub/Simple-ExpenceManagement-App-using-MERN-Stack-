@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Kanit:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dhurjati', sans-serif;
+
+}
+
+.navbar {
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+.foooter {
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+}
+
+.content {
+  min-height: 80vh;
+}
+
+.nav-link:hover {
+  transition: all 1s;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* for formm */
+.regitserrow {
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-control:focus {
+  border-color: rgb(247, 243, 243) !important;
+  box-shadow: 0 0 0px rgb(236, 236, 240) !important;
+}
+
+/* .logincontainer {
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+} */
